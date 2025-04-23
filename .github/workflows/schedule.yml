@@ -1,0 +1,36 @@
+name: Run AI Bot Workflow
+
+on:
+  schedule:
+    # Run every 2 hours between 8:30 AM and 3:30 PM CST, Monday to Friday
+    - cron: '30 14-21/2 * * 1-5' # CST is UTC-6, so 8:30 AM CST = 14:30 UTC
+
+jobs:
+  run-ai-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9' # Use the Python version you need
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # Step 4: Run the script
+    - name: Run AI Bot
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+      run: |
+        python main.py
