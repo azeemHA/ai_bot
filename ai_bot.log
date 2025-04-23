@@ -1,0 +1,869 @@
+2025-04-22 13:59:38,910 - INFO - Starting AI bot workflow.
+2025-04-22 13:59:38,910 - INFO - Fetching tickers...
+2025-04-22 13:59:39,301 - INFO - Fetched 503 tickers.
+2025-04-22 13:59:39,301 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 13:59:39,301 - INFO - Identifying top movers...
+2025-04-22 13:59:56,933 - ERROR - 
+1 Failed download:
+2025-04-22 13:59:56,935 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 14:00:00,574 - ERROR - 
+1 Failed download:
+2025-04-22 14:00:00,575 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 14:01:42,778 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 14:01:42,788 - INFO - Analyzing ticker: MS
+2025-04-22 14:01:42,985 - INFO - Generated 45 buy signals and 38 sell signals.
+2025-04-22 14:01:42,985 - ERROR - Error analyzing ticker MS: unsupported format string passed to Series.__format__
+2025-04-22 14:01:42,985 - INFO - Analyzing ticker: CINF
+2025-04-22 14:01:43,229 - INFO - Generated 38 buy signals and 16 sell signals.
+2025-04-22 14:01:43,229 - ERROR - Error analyzing ticker CINF: unsupported format string passed to Series.__format__
+2025-04-22 14:01:43,229 - INFO - Analyzing ticker: WSM
+2025-04-22 14:01:43,262 - INFO - Generated 37 buy signals and 2 sell signals.
+2025-04-22 14:01:43,262 - ERROR - Error analyzing ticker WSM: unsupported format string passed to Series.__format__
+2025-04-22 14:01:43,262 - INFO - Analyzing ticker: APD
+2025-04-22 14:01:43,500 - INFO - Generated 68 buy signals and 47 sell signals.
+2025-04-22 14:01:43,501 - ERROR - Error analyzing ticker APD: unsupported format string passed to Series.__format__
+2025-04-22 14:01:43,501 - INFO - Analyzing ticker: WDAY
+2025-04-22 14:01:43,534 - INFO - Generated 60 buy signals and 23 sell signals.
+2025-04-22 14:01:43,535 - ERROR - Error analyzing ticker WDAY: unsupported format string passed to Series.__format__
+2025-04-22 14:01:43,535 - INFO - Analyzing ticker: MSCI
+2025-04-22 14:01:43,717 - INFO - Generated 53 buy signals and 51 sell signals.
+2025-04-22 14:01:43,718 - ERROR - Error analyzing ticker MSCI: unsupported format string passed to Series.__format__
+2025-04-22 14:01:43,718 - INFO - Analyzing ticker: TKO
+2025-04-22 14:01:43,777 - INFO - Generated 46 buy signals and 30 sell signals.
+2025-04-22 14:01:43,778 - ERROR - Error analyzing ticker TKO: unsupported format string passed to Series.__format__
+2025-04-22 14:01:43,778 - INFO - Analyzing ticker: UBER
+2025-04-22 14:01:43,810 - INFO - Generated 41 buy signals and 13 sell signals.
+2025-04-22 14:01:43,810 - ERROR - Error analyzing ticker UBER: unsupported format string passed to Series.__format__
+2025-04-22 14:01:43,810 - INFO - Analyzing ticker: AXON
+2025-04-22 14:01:43,943 - INFO - Generated 30 buy signals and 6 sell signals.
+2025-04-22 14:01:43,944 - ERROR - Error analyzing ticker AXON: unsupported format string passed to Series.__format__
+2025-04-22 14:01:43,944 - INFO - Analyzing ticker: TAP
+2025-04-22 14:01:44,119 - INFO - Generated 67 buy signals and 38 sell signals.
+2025-04-22 14:01:44,120 - ERROR - Error analyzing ticker TAP: unsupported format string passed to Series.__format__
+2025-04-22 14:01:44,120 - INFO - Sending consolidated notification.
+2025-04-22 14:01:44,542 - ERROR - Failed to send notification: {"ok":false,"error_code":404,"description":"Not Found"}
+2025-04-22 14:01:44,543 - INFO - Workflow complete.
+2025-04-22 14:05:18,708 - INFO - Starting AI bot workflow.
+2025-04-22 14:05:18,708 - INFO - Fetching tickers...
+2025-04-22 14:05:19,048 - INFO - Fetched 503 tickers.
+2025-04-22 14:05:19,048 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 14:05:19,049 - INFO - Identifying top movers...
+2025-04-22 14:05:35,149 - ERROR - 
+1 Failed download:
+2025-04-22 14:05:35,149 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 14:05:38,675 - ERROR - 
+1 Failed download:
+2025-04-22 14:05:38,675 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 14:07:20,795 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 14:07:20,795 - ERROR - Telegram bot token or chat ID is missing. Please set them as environment variables.
+2025-04-22 14:11:47,537 - INFO - Starting AI bot workflow.
+2025-04-22 14:11:47,537 - INFO - Fetching tickers...
+2025-04-22 14:11:47,892 - INFO - Fetched 503 tickers.
+2025-04-22 14:11:47,892 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 14:11:47,892 - INFO - Identifying top movers...
+2025-04-22 14:12:05,001 - ERROR - 
+1 Failed download:
+2025-04-22 14:12:05,002 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 14:12:07,968 - ERROR - 
+1 Failed download:
+2025-04-22 14:12:07,968 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 14:13:48,667 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 14:13:48,667 - INFO - Analyzing ticker: MS
+2025-04-22 14:13:48,954 - INFO - Generated 45 buy signals and 38 sell signals.
+2025-04-22 14:13:48,954 - ERROR - Error analyzing ticker MS: unsupported format string passed to Series.__format__
+2025-04-22 14:13:48,955 - INFO - Analyzing ticker: CINF
+2025-04-22 14:13:49,142 - INFO - Generated 38 buy signals and 16 sell signals.
+2025-04-22 14:13:49,143 - ERROR - Error analyzing ticker CINF: unsupported format string passed to Series.__format__
+2025-04-22 14:13:49,143 - INFO - Analyzing ticker: WSM
+2025-04-22 14:13:49,176 - INFO - Generated 37 buy signals and 2 sell signals.
+2025-04-22 14:13:49,177 - ERROR - Error analyzing ticker WSM: unsupported format string passed to Series.__format__
+2025-04-22 14:13:49,177 - INFO - Analyzing ticker: APD
+2025-04-22 14:13:49,380 - INFO - Generated 68 buy signals and 47 sell signals.
+2025-04-22 14:13:49,381 - ERROR - Error analyzing ticker APD: unsupported format string passed to Series.__format__
+2025-04-22 14:13:49,381 - INFO - Analyzing ticker: WDAY
+2025-04-22 14:13:49,413 - INFO - Generated 60 buy signals and 23 sell signals.
+2025-04-22 14:13:49,413 - ERROR - Error analyzing ticker WDAY: unsupported format string passed to Series.__format__
+2025-04-22 14:13:49,413 - INFO - Analyzing ticker: MSCI
+2025-04-22 14:13:49,646 - INFO - Generated 53 buy signals and 51 sell signals.
+2025-04-22 14:13:49,647 - ERROR - Error analyzing ticker MSCI: unsupported format string passed to Series.__format__
+2025-04-22 14:13:49,647 - INFO - Analyzing ticker: TKO
+2025-04-22 14:13:49,681 - INFO - Generated 46 buy signals and 30 sell signals.
+2025-04-22 14:13:49,681 - ERROR - Error analyzing ticker TKO: unsupported format string passed to Series.__format__
+2025-04-22 14:13:49,681 - INFO - Analyzing ticker: UBER
+2025-04-22 14:13:49,713 - INFO - Generated 41 buy signals and 13 sell signals.
+2025-04-22 14:13:49,713 - ERROR - Error analyzing ticker UBER: unsupported format string passed to Series.__format__
+2025-04-22 14:13:49,713 - INFO - Analyzing ticker: AXON
+2025-04-22 14:13:49,876 - INFO - Generated 30 buy signals and 6 sell signals.
+2025-04-22 14:13:49,876 - ERROR - Error analyzing ticker AXON: unsupported format string passed to Series.__format__
+2025-04-22 14:13:49,876 - INFO - Analyzing ticker: TAP
+2025-04-22 14:13:50,076 - INFO - Generated 67 buy signals and 38 sell signals.
+2025-04-22 14:13:50,076 - ERROR - Error analyzing ticker TAP: unsupported format string passed to Series.__format__
+2025-04-22 14:13:50,076 - INFO - Sending consolidated notification.
+2025-04-22 14:13:50,675 - INFO - Notification sent successfully.
+2025-04-22 14:13:50,675 - INFO - Workflow complete.
+2025-04-22 14:16:43,114 - INFO - Starting AI bot workflow.
+2025-04-22 14:16:43,114 - INFO - Fetching tickers...
+2025-04-22 14:16:43,461 - INFO - Fetched 503 tickers.
+2025-04-22 14:16:43,461 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 14:16:43,461 - INFO - Identifying top movers...
+2025-04-22 14:16:59,746 - ERROR - 
+1 Failed download:
+2025-04-22 14:16:59,746 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 14:17:02,964 - ERROR - 
+1 Failed download:
+2025-04-22 14:17:02,964 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 14:18:50,190 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 14:18:50,190 - INFO - Analyzing ticker: MS
+2025-04-22 14:18:50,411 - INFO - Generated 45 buy signals and 38 sell signals.
+2025-04-22 14:18:50,411 - ERROR - Error analyzing ticker MS: unsupported format string passed to Series.__format__
+2025-04-22 14:18:50,411 - INFO - Analyzing ticker: CINF
+2025-04-22 14:18:50,608 - INFO - Generated 38 buy signals and 16 sell signals.
+2025-04-22 14:18:50,609 - ERROR - Error analyzing ticker CINF: unsupported format string passed to Series.__format__
+2025-04-22 14:18:50,609 - INFO - Analyzing ticker: WSM
+2025-04-22 14:18:50,641 - INFO - Generated 37 buy signals and 2 sell signals.
+2025-04-22 14:18:50,641 - ERROR - Error analyzing ticker WSM: unsupported format string passed to Series.__format__
+2025-04-22 14:18:50,641 - INFO - Analyzing ticker: APD
+2025-04-22 14:18:50,877 - INFO - Generated 68 buy signals and 47 sell signals.
+2025-04-22 14:18:50,877 - ERROR - Error analyzing ticker APD: unsupported format string passed to Series.__format__
+2025-04-22 14:18:50,877 - INFO - Analyzing ticker: WDAY
+2025-04-22 14:18:50,910 - INFO - Generated 60 buy signals and 23 sell signals.
+2025-04-22 14:18:50,910 - ERROR - Error analyzing ticker WDAY: unsupported format string passed to Series.__format__
+2025-04-22 14:18:50,910 - INFO - Analyzing ticker: MSCI
+2025-04-22 14:18:51,046 - INFO - Generated 53 buy signals and 51 sell signals.
+2025-04-22 14:18:51,047 - ERROR - Error analyzing ticker MSCI: unsupported format string passed to Series.__format__
+2025-04-22 14:18:51,047 - INFO - Analyzing ticker: TKO
+2025-04-22 14:18:51,082 - INFO - Generated 46 buy signals and 30 sell signals.
+2025-04-22 14:18:51,083 - ERROR - Error analyzing ticker TKO: unsupported format string passed to Series.__format__
+2025-04-22 14:18:51,083 - INFO - Analyzing ticker: UBER
+2025-04-22 14:18:51,114 - INFO - Generated 41 buy signals and 13 sell signals.
+2025-04-22 14:18:51,114 - ERROR - Error analyzing ticker UBER: unsupported format string passed to Series.__format__
+2025-04-22 14:18:51,114 - INFO - Analyzing ticker: AXON
+2025-04-22 14:18:51,365 - INFO - Generated 30 buy signals and 6 sell signals.
+2025-04-22 14:18:51,365 - ERROR - Error analyzing ticker AXON: unsupported format string passed to Series.__format__
+2025-04-22 14:18:51,365 - INFO - Analyzing ticker: TAP
+2025-04-22 14:18:51,632 - INFO - Generated 67 buy signals and 38 sell signals.
+2025-04-22 14:18:51,633 - ERROR - Error analyzing ticker TAP: unsupported format string passed to Series.__format__
+2025-04-22 14:18:51,633 - INFO - No buy/sell signals generated. No notification sent.
+2025-04-22 14:18:51,633 - INFO - Workflow complete.
+2025-04-22 14:24:00,462 - INFO - Starting AI bot workflow.
+2025-04-22 14:24:00,462 - INFO - Fetching tickers...
+2025-04-22 14:24:00,820 - INFO - Fetched 503 tickers.
+2025-04-22 14:24:00,820 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 14:24:00,820 - INFO - Identifying top movers...
+2025-04-22 14:24:17,945 - ERROR - 
+1 Failed download:
+2025-04-22 14:24:17,945 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 14:24:21,228 - ERROR - 
+1 Failed download:
+2025-04-22 14:24:21,228 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 14:26:03,837 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 14:26:03,838 - INFO - Analyzing ticker: MS
+2025-04-22 14:26:04,135 - INFO - Generated 45 buy signals and 38 sell signals.
+2025-04-22 14:26:04,135 - ERROR - Error analyzing ticker MS: unsupported format string passed to Series.__format__
+2025-04-22 14:26:04,135 - INFO - Analyzing ticker: CINF
+2025-04-22 14:26:04,318 - INFO - Generated 38 buy signals and 16 sell signals.
+2025-04-22 14:26:04,318 - ERROR - Error analyzing ticker CINF: unsupported format string passed to Series.__format__
+2025-04-22 14:26:04,318 - INFO - Analyzing ticker: WSM
+2025-04-22 14:26:04,351 - INFO - Generated 37 buy signals and 2 sell signals.
+2025-04-22 14:26:04,352 - ERROR - Error analyzing ticker WSM: unsupported format string passed to Series.__format__
+2025-04-22 14:26:04,352 - INFO - Analyzing ticker: APD
+2025-04-22 14:26:04,575 - INFO - Generated 68 buy signals and 47 sell signals.
+2025-04-22 14:26:04,576 - ERROR - Error analyzing ticker APD: unsupported format string passed to Series.__format__
+2025-04-22 14:26:04,577 - INFO - Analyzing ticker: WDAY
+2025-04-22 14:26:04,623 - INFO - Generated 60 buy signals and 23 sell signals.
+2025-04-22 14:26:04,624 - ERROR - Error analyzing ticker WDAY: unsupported format string passed to Series.__format__
+2025-04-22 14:26:04,624 - INFO - Analyzing ticker: MSCI
+2025-04-22 14:26:04,833 - INFO - Generated 53 buy signals and 51 sell signals.
+2025-04-22 14:26:04,833 - ERROR - Error analyzing ticker MSCI: unsupported format string passed to Series.__format__
+2025-04-22 14:26:04,833 - INFO - Analyzing ticker: TKO
+2025-04-22 14:26:04,869 - INFO - Generated 46 buy signals and 30 sell signals.
+2025-04-22 14:26:04,869 - ERROR - Error analyzing ticker TKO: unsupported format string passed to Series.__format__
+2025-04-22 14:26:04,869 - INFO - Analyzing ticker: UBER
+2025-04-22 14:26:04,902 - INFO - Generated 41 buy signals and 13 sell signals.
+2025-04-22 14:26:04,902 - ERROR - Error analyzing ticker UBER: unsupported format string passed to Series.__format__
+2025-04-22 14:26:04,902 - INFO - Analyzing ticker: AXON
+2025-04-22 14:26:05,030 - INFO - Generated 30 buy signals and 6 sell signals.
+2025-04-22 14:26:05,030 - ERROR - Error analyzing ticker AXON: unsupported format string passed to Series.__format__
+2025-04-22 14:26:05,030 - INFO - Analyzing ticker: TAP
+2025-04-22 14:26:05,464 - INFO - Generated 67 buy signals and 38 sell signals.
+2025-04-22 14:26:05,465 - ERROR - Error analyzing ticker TAP: unsupported format string passed to Series.__format__
+2025-04-22 14:26:05,465 - INFO - No buy/sell signals generated. No notification sent.
+2025-04-22 14:26:05,465 - INFO - Workflow complete.
+2025-04-22 14:27:55,533 - INFO - Starting AI bot workflow.
+2025-04-22 14:27:55,533 - INFO - Fetching tickers...
+2025-04-22 14:27:55,900 - INFO - Fetched 503 tickers.
+2025-04-22 14:27:55,900 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 14:27:55,900 - INFO - Identifying top movers...
+2025-04-22 14:28:11,636 - ERROR - 
+1 Failed download:
+2025-04-22 14:28:11,636 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 14:28:14,715 - ERROR - 
+1 Failed download:
+2025-04-22 14:28:14,715 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 14:29:54,909 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 14:29:54,909 - INFO - Analyzing ticker: MS
+2025-04-22 14:29:55,087 - INFO - Generated 45 buy signals and 38 sell signals.
+2025-04-22 14:29:55,088 - ERROR - Error analyzing ticker MS: unsupported format string passed to Series.__format__
+2025-04-22 14:29:55,088 - INFO - Analyzing ticker: CINF
+2025-04-22 14:29:55,289 - INFO - Generated 38 buy signals and 16 sell signals.
+2025-04-22 14:29:55,289 - ERROR - Error analyzing ticker CINF: unsupported format string passed to Series.__format__
+2025-04-22 14:29:55,289 - INFO - Analyzing ticker: WSM
+2025-04-22 14:29:55,380 - INFO - Generated 37 buy signals and 2 sell signals.
+2025-04-22 14:29:55,380 - ERROR - Error analyzing ticker WSM: unsupported format string passed to Series.__format__
+2025-04-22 14:29:55,381 - INFO - Analyzing ticker: APD
+2025-04-22 14:29:55,689 - INFO - Generated 68 buy signals and 47 sell signals.
+2025-04-22 14:29:55,690 - ERROR - Error analyzing ticker APD: unsupported format string passed to Series.__format__
+2025-04-22 14:29:55,690 - INFO - Analyzing ticker: WDAY
+2025-04-22 14:29:55,724 - INFO - Generated 60 buy signals and 23 sell signals.
+2025-04-22 14:29:55,725 - ERROR - Error analyzing ticker WDAY: unsupported format string passed to Series.__format__
+2025-04-22 14:29:55,725 - INFO - Analyzing ticker: MSCI
+2025-04-22 14:29:55,871 - INFO - Generated 53 buy signals and 51 sell signals.
+2025-04-22 14:29:55,872 - ERROR - Error analyzing ticker MSCI: unsupported format string passed to Series.__format__
+2025-04-22 14:29:55,872 - INFO - Analyzing ticker: TKO
+2025-04-22 14:29:55,904 - INFO - Generated 46 buy signals and 30 sell signals.
+2025-04-22 14:29:55,905 - ERROR - Error analyzing ticker TKO: unsupported format string passed to Series.__format__
+2025-04-22 14:29:55,905 - INFO - Analyzing ticker: UBER
+2025-04-22 14:29:55,936 - INFO - Generated 41 buy signals and 13 sell signals.
+2025-04-22 14:29:55,937 - ERROR - Error analyzing ticker UBER: unsupported format string passed to Series.__format__
+2025-04-22 14:29:55,937 - INFO - Analyzing ticker: AXON
+2025-04-22 14:29:56,210 - INFO - Generated 30 buy signals and 6 sell signals.
+2025-04-22 14:29:56,211 - ERROR - Error analyzing ticker AXON: unsupported format string passed to Series.__format__
+2025-04-22 14:29:56,211 - INFO - Analyzing ticker: TAP
+2025-04-22 14:29:56,407 - INFO - Generated 67 buy signals and 38 sell signals.
+2025-04-22 14:29:56,408 - ERROR - Error analyzing ticker TAP: unsupported format string passed to Series.__format__
+2025-04-22 14:29:56,408 - INFO - No buy/sell signals generated. No notification sent.
+2025-04-22 14:29:56,408 - INFO - Workflow complete.
+2025-04-22 15:08:02,666 - INFO - Starting AI bot workflow.
+2025-04-22 15:08:02,666 - INFO - Fetching tickers...
+2025-04-22 15:08:03,075 - INFO - Fetched 503 tickers.
+2025-04-22 15:08:03,075 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 15:08:03,075 - INFO - Identifying top movers...
+2025-04-22 15:08:19,223 - ERROR - 
+1 Failed download:
+2025-04-22 15:08:19,223 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 15:08:21,886 - ERROR - 
+1 Failed download:
+2025-04-22 15:08:21,887 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 15:10:04,324 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 15:10:04,325 - INFO - Analyzing ticker: MS
+2025-04-22 15:10:04,518 - INFO - Generated 45 buy signals and 38 sell signals.
+2025-04-22 15:10:04,519 - ERROR - Error analyzing ticker MS: unsupported format string passed to Series.__format__
+2025-04-22 15:10:04,519 - INFO - Analyzing ticker: CINF
+2025-04-22 15:10:04,712 - INFO - Generated 38 buy signals and 16 sell signals.
+2025-04-22 15:10:04,712 - ERROR - Error analyzing ticker CINF: unsupported format string passed to Series.__format__
+2025-04-22 15:10:04,712 - INFO - Analyzing ticker: WSM
+2025-04-22 15:10:04,757 - INFO - Generated 37 buy signals and 2 sell signals.
+2025-04-22 15:10:04,758 - ERROR - Error analyzing ticker WSM: unsupported format string passed to Series.__format__
+2025-04-22 15:10:04,758 - INFO - Analyzing ticker: APD
+2025-04-22 15:10:04,978 - INFO - Generated 68 buy signals and 47 sell signals.
+2025-04-22 15:10:04,978 - ERROR - Error analyzing ticker APD: unsupported format string passed to Series.__format__
+2025-04-22 15:10:04,979 - INFO - Analyzing ticker: WDAY
+2025-04-22 15:10:05,012 - INFO - Generated 60 buy signals and 23 sell signals.
+2025-04-22 15:10:05,012 - ERROR - Error analyzing ticker WDAY: unsupported format string passed to Series.__format__
+2025-04-22 15:10:05,012 - INFO - Analyzing ticker: MSCI
+2025-04-22 15:10:05,140 - INFO - Generated 53 buy signals and 51 sell signals.
+2025-04-22 15:10:05,141 - ERROR - Error analyzing ticker MSCI: unsupported format string passed to Series.__format__
+2025-04-22 15:10:05,141 - INFO - Analyzing ticker: TKO
+2025-04-22 15:10:05,176 - INFO - Generated 46 buy signals and 30 sell signals.
+2025-04-22 15:10:05,176 - ERROR - Error analyzing ticker TKO: unsupported format string passed to Series.__format__
+2025-04-22 15:10:05,176 - INFO - Analyzing ticker: UBER
+2025-04-22 15:10:05,208 - INFO - Generated 41 buy signals and 13 sell signals.
+2025-04-22 15:10:05,209 - ERROR - Error analyzing ticker UBER: unsupported format string passed to Series.__format__
+2025-04-22 15:10:05,209 - INFO - Analyzing ticker: AXON
+2025-04-22 15:10:05,313 - INFO - Generated 30 buy signals and 6 sell signals.
+2025-04-22 15:10:05,314 - ERROR - Error analyzing ticker AXON: unsupported format string passed to Series.__format__
+2025-04-22 15:10:05,314 - INFO - Analyzing ticker: TAP
+2025-04-22 15:10:05,519 - INFO - Generated 67 buy signals and 38 sell signals.
+2025-04-22 15:10:05,520 - ERROR - Error analyzing ticker TAP: unsupported format string passed to Series.__format__
+2025-04-22 15:10:05,520 - INFO - No buy/sell signals generated. No notification sent.
+2025-04-22 15:10:05,520 - INFO - Workflow complete.
+2025-04-22 15:47:33,210 - INFO - Starting AI bot workflow.
+2025-04-22 15:47:33,211 - INFO - Fetching tickers...
+2025-04-22 15:47:33,616 - INFO - Fetched 503 tickers.
+2025-04-22 15:47:33,617 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 15:47:33,617 - INFO - Identifying top movers...
+2025-04-22 15:47:48,920 - ERROR - 
+1 Failed download:
+2025-04-22 15:47:48,921 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 15:47:52,520 - ERROR - 
+1 Failed download:
+2025-04-22 15:47:52,521 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 15:49:38,326 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 15:49:38,326 - INFO - Analyzing ticker: MS
+2025-04-22 15:49:38,692 - INFO - Generated 45 buy signals and 38 sell signals.
+2025-04-22 15:49:38,692 - ERROR - Error analyzing ticker MS: unsupported format string passed to Series.__format__
+2025-04-22 15:49:38,693 - INFO - Analyzing ticker: CINF
+2025-04-22 15:49:38,853 - INFO - Generated 38 buy signals and 16 sell signals.
+2025-04-22 15:49:38,854 - ERROR - Error analyzing ticker CINF: unsupported format string passed to Series.__format__
+2025-04-22 15:49:38,854 - INFO - Analyzing ticker: WSM
+2025-04-22 15:49:38,899 - INFO - Generated 37 buy signals and 2 sell signals.
+2025-04-22 15:49:38,899 - ERROR - Error analyzing ticker WSM: unsupported format string passed to Series.__format__
+2025-04-22 15:49:38,899 - INFO - Analyzing ticker: APD
+2025-04-22 15:49:39,117 - INFO - Generated 68 buy signals and 47 sell signals.
+2025-04-22 15:49:39,118 - ERROR - Error analyzing ticker APD: unsupported format string passed to Series.__format__
+2025-04-22 15:49:39,118 - INFO - Analyzing ticker: WDAY
+2025-04-22 15:49:39,150 - INFO - Generated 60 buy signals and 23 sell signals.
+2025-04-22 15:49:39,151 - ERROR - Error analyzing ticker WDAY: unsupported format string passed to Series.__format__
+2025-04-22 15:49:39,151 - INFO - Analyzing ticker: MSCI
+2025-04-22 15:49:39,330 - INFO - Generated 53 buy signals and 51 sell signals.
+2025-04-22 15:49:39,331 - ERROR - Error analyzing ticker MSCI: unsupported format string passed to Series.__format__
+2025-04-22 15:49:39,331 - INFO - Analyzing ticker: TKO
+2025-04-22 15:49:39,365 - INFO - Generated 46 buy signals and 30 sell signals.
+2025-04-22 15:49:39,366 - ERROR - Error analyzing ticker TKO: unsupported format string passed to Series.__format__
+2025-04-22 15:49:39,366 - INFO - Analyzing ticker: UBER
+2025-04-22 15:49:39,397 - INFO - Generated 41 buy signals and 13 sell signals.
+2025-04-22 15:49:39,397 - ERROR - Error analyzing ticker UBER: unsupported format string passed to Series.__format__
+2025-04-22 15:49:39,397 - INFO - Analyzing ticker: AXON
+2025-04-22 15:49:39,540 - INFO - Generated 30 buy signals and 6 sell signals.
+2025-04-22 15:49:39,540 - ERROR - Error analyzing ticker AXON: unsupported format string passed to Series.__format__
+2025-04-22 15:49:39,540 - INFO - Analyzing ticker: TAP
+2025-04-22 15:49:39,691 - INFO - Generated 67 buy signals and 38 sell signals.
+2025-04-22 15:49:39,692 - ERROR - Error analyzing ticker TAP: unsupported format string passed to Series.__format__
+2025-04-22 15:49:39,692 - INFO - No buy/sell signals generated. No notification sent.
+2025-04-22 15:49:39,692 - INFO - Workflow complete.
+2025-04-22 16:18:02,079 - INFO - Starting AI bot workflow.
+2025-04-22 16:18:02,080 - INFO - Fetching tickers...
+2025-04-22 16:18:02,482 - INFO - Fetched 503 tickers.
+2025-04-22 16:18:02,483 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 16:18:02,483 - INFO - Identifying top movers...
+2025-04-22 16:18:19,353 - ERROR - 
+1 Failed download:
+2025-04-22 16:18:19,353 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 16:18:22,747 - ERROR - 
+1 Failed download:
+2025-04-22 16:18:22,747 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 16:20:09,336 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 16:20:09,336 - INFO - Analyzing ticker: MS
+2025-04-22 16:20:09,567 - INFO - Generated 45 buy signals and 38 sell signals.
+2025-04-22 16:20:09,568 - ERROR - Error analyzing ticker MS: unsupported format string passed to Series.__format__
+2025-04-22 16:20:09,568 - INFO - Analyzing ticker: CINF
+2025-04-22 16:20:09,926 - INFO - Generated 38 buy signals and 16 sell signals.
+2025-04-22 16:20:09,927 - ERROR - Error analyzing ticker CINF: unsupported format string passed to Series.__format__
+2025-04-22 16:20:09,927 - INFO - Analyzing ticker: WSM
+2025-04-22 16:20:09,969 - INFO - Generated 37 buy signals and 2 sell signals.
+2025-04-22 16:20:09,970 - ERROR - Error analyzing ticker WSM: unsupported format string passed to Series.__format__
+2025-04-22 16:20:09,970 - INFO - Analyzing ticker: APD
+2025-04-22 16:20:10,204 - INFO - Generated 68 buy signals and 47 sell signals.
+2025-04-22 16:20:10,205 - ERROR - Error analyzing ticker APD: unsupported format string passed to Series.__format__
+2025-04-22 16:20:10,205 - INFO - Analyzing ticker: WDAY
+2025-04-22 16:20:10,237 - INFO - Generated 60 buy signals and 23 sell signals.
+2025-04-22 16:20:10,238 - ERROR - Error analyzing ticker WDAY: unsupported format string passed to Series.__format__
+2025-04-22 16:20:10,238 - INFO - Analyzing ticker: MSCI
+2025-04-22 16:20:10,435 - INFO - Generated 53 buy signals and 51 sell signals.
+2025-04-22 16:20:10,437 - ERROR - Error analyzing ticker MSCI: unsupported format string passed to Series.__format__
+2025-04-22 16:20:10,437 - INFO - Analyzing ticker: TKO
+2025-04-22 16:20:10,471 - INFO - Generated 46 buy signals and 30 sell signals.
+2025-04-22 16:20:10,472 - ERROR - Error analyzing ticker TKO: unsupported format string passed to Series.__format__
+2025-04-22 16:20:10,472 - INFO - Analyzing ticker: UBER
+2025-04-22 16:20:10,502 - INFO - Generated 41 buy signals and 13 sell signals.
+2025-04-22 16:20:10,504 - ERROR - Error analyzing ticker UBER: unsupported format string passed to Series.__format__
+2025-04-22 16:20:10,504 - INFO - Analyzing ticker: AXON
+2025-04-22 16:20:10,646 - INFO - Generated 30 buy signals and 6 sell signals.
+2025-04-22 16:20:10,647 - ERROR - Error analyzing ticker AXON: unsupported format string passed to Series.__format__
+2025-04-22 16:20:10,647 - INFO - Analyzing ticker: TAP
+2025-04-22 16:20:10,826 - INFO - Generated 67 buy signals and 38 sell signals.
+2025-04-22 16:20:10,827 - ERROR - Error analyzing ticker TAP: unsupported format string passed to Series.__format__
+2025-04-22 16:20:10,827 - INFO - No buy/sell signals generated. No notification sent.
+2025-04-22 16:20:10,827 - INFO - Workflow complete.
+2025-04-22 16:24:03,961 - INFO - Starting AI bot workflow.
+2025-04-22 16:24:03,961 - INFO - Fetching tickers...
+2025-04-22 16:24:04,306 - INFO - Fetched 503 tickers.
+2025-04-22 16:24:04,307 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 16:24:04,307 - INFO - Identifying top movers...
+2025-04-22 16:24:19,225 - ERROR - 
+1 Failed download:
+2025-04-22 16:24:19,226 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 16:24:22,497 - ERROR - 
+1 Failed download:
+2025-04-22 16:24:22,497 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 16:26:06,307 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 16:26:06,308 - INFO - Analyzing ticker: MS
+2025-04-22 16:26:06,649 - INFO - Generated 45 buy signals and 38 sell signals.
+2025-04-22 16:26:06,778 - INFO - Analyzing ticker: CINF
+2025-04-22 16:26:07,072 - INFO - Generated 38 buy signals and 16 sell signals.
+2025-04-22 16:26:07,197 - INFO - Analyzing ticker: WSM
+2025-04-22 16:26:07,228 - INFO - Generated 37 buy signals and 2 sell signals.
+2025-04-22 16:26:07,344 - INFO - Analyzing ticker: APD
+2025-04-22 16:26:07,599 - INFO - Generated 68 buy signals and 47 sell signals.
+2025-04-22 16:26:07,771 - INFO - Analyzing ticker: WDAY
+2025-04-22 16:26:07,793 - INFO - Generated 60 buy signals and 23 sell signals.
+2025-04-22 16:26:07,894 - INFO - Analyzing ticker: MSCI
+2025-04-22 16:26:08,051 - INFO - Generated 53 buy signals and 51 sell signals.
+2025-04-22 16:26:08,157 - INFO - Analyzing ticker: TKO
+2025-04-22 16:26:08,182 - INFO - Generated 46 buy signals and 30 sell signals.
+2025-04-22 16:26:08,423 - INFO - Analyzing ticker: UBER
+2025-04-22 16:26:08,445 - INFO - Generated 41 buy signals and 13 sell signals.
+2025-04-22 16:26:08,524 - INFO - Analyzing ticker: AXON
+2025-04-22 16:26:08,666 - INFO - Generated 30 buy signals and 6 sell signals.
+2025-04-22 16:26:08,765 - INFO - Analyzing ticker: TAP
+2025-04-22 16:26:08,957 - INFO - Generated 67 buy signals and 38 sell signals.
+2025-04-22 16:26:09,151 - INFO - Sending consolidated notification.
+2025-04-22 16:26:09,743 - INFO - Notification sent successfully.
+2025-04-22 16:26:09,743 - INFO - Workflow complete.
+2025-04-22 19:47:01,052 - INFO - Starting AI bot workflow.
+2025-04-22 19:47:01,052 - INFO - Fetching tickers...
+2025-04-22 19:47:01,486 - INFO - Fetched 503 tickers.
+2025-04-22 19:47:01,486 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 19:47:01,487 - INFO - Identifying top movers...
+2025-04-22 19:47:18,764 - ERROR - 
+1 Failed download:
+2025-04-22 19:47:18,764 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 19:47:21,669 - ERROR - 
+1 Failed download:
+2025-04-22 19:47:21,669 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 19:48:53,134 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 19:48:53,135 - INFO - Analyzing ticker: MS
+2025-04-22 19:48:53,266 - INFO - Generated 45 buy signals and 0 sell signals.
+2025-04-22 19:48:53,372 - INFO - Analyzing ticker: CINF
+2025-04-22 19:48:53,597 - INFO - Generated 38 buy signals and 0 sell signals.
+2025-04-22 19:48:53,733 - INFO - Analyzing ticker: WSM
+2025-04-22 19:48:53,759 - INFO - Generated 37 buy signals and 0 sell signals.
+2025-04-22 19:48:53,877 - INFO - Analyzing ticker: APD
+2025-04-22 19:48:54,066 - INFO - Generated 68 buy signals and 0 sell signals.
+2025-04-22 19:48:54,192 - INFO - Analyzing ticker: WDAY
+2025-04-22 19:48:54,227 - INFO - Generated 60 buy signals and 1 sell signals.
+2025-04-22 19:48:54,299 - INFO - Analyzing ticker: MSCI
+2025-04-22 19:48:54,446 - INFO - Generated 53 buy signals and 0 sell signals.
+2025-04-22 19:48:54,634 - INFO - Analyzing ticker: TKO
+2025-04-22 19:48:54,663 - INFO - Generated 46 buy signals and 0 sell signals.
+2025-04-22 19:48:54,837 - INFO - Analyzing ticker: UBER
+2025-04-22 19:48:54,862 - INFO - Generated 41 buy signals and 4 sell signals.
+2025-04-22 19:48:55,014 - INFO - Analyzing ticker: AXON
+2025-04-22 19:48:55,192 - INFO - Generated 30 buy signals and 0 sell signals.
+2025-04-22 19:48:55,378 - INFO - Analyzing ticker: TAP
+2025-04-22 19:48:55,699 - INFO - Generated 67 buy signals and 2 sell signals.
+2025-04-22 19:48:55,858 - INFO - Sending consolidated notification.
+2025-04-22 19:48:56,444 - INFO - Notification sent successfully.
+2025-04-22 19:48:56,444 - INFO - Workflow complete.
+2025-04-22 20:08:34,393 - INFO - Starting AI bot workflow.
+2025-04-22 20:08:34,394 - INFO - Fetching tickers...
+2025-04-22 20:08:34,780 - INFO - Fetched 503 tickers.
+2025-04-22 20:08:34,780 - INFO - Using date range: 2022-04-23 to 2025-04-22
+2025-04-22 20:08:34,780 - INFO - Identifying top movers...
+2025-04-22 20:08:51,129 - ERROR - 
+1 Failed download:
+2025-04-22 20:08:51,130 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-22 20:08:53,931 - ERROR - 
+1 Failed download:
+2025-04-22 20:08:53,931 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-23 -> 2025-04-22)')
+2025-04-22 20:10:35,601 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-22 20:10:35,602 - INFO - Analyzing ticker: MS
+2025-04-22 20:10:35,808 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-22 20:10:36,266 - INFO - Analyzing ticker: CINF
+2025-04-22 20:10:36,472 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-22 20:10:36,945 - INFO - Analyzing ticker: WSM
+2025-04-22 20:10:36,984 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-22 20:10:37,360 - INFO - Analyzing ticker: APD
+2025-04-22 20:10:37,665 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-22 20:10:38,104 - INFO - Analyzing ticker: WDAY
+2025-04-22 20:10:38,137 - INFO - Generated 0 buy signals and 2 sell signals.
+2025-04-22 20:10:38,524 - INFO - Analyzing ticker: MSCI
+2025-04-22 20:10:38,823 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-22 20:10:39,274 - INFO - Analyzing ticker: TKO
+2025-04-22 20:10:39,614 - INFO - Generated 1 buy signals and 2 sell signals.
+2025-04-22 20:10:40,010 - INFO - Analyzing ticker: UBER
+2025-04-22 20:10:40,066 - INFO - Generated 0 buy signals and 3 sell signals.
+2025-04-22 20:10:40,503 - INFO - Analyzing ticker: AXON
+2025-04-22 20:10:40,705 - INFO - Generated 0 buy signals and 4 sell signals.
+2025-04-22 20:10:41,130 - INFO - Analyzing ticker: TAP
+2025-04-22 20:10:41,479 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-22 20:10:41,893 - INFO - Sending consolidated notification.
+2025-04-22 20:10:42,458 - INFO - Notification sent successfully.
+2025-04-22 20:10:42,458 - INFO - Workflow complete.
+2025-04-23 11:00:57,716 - INFO - Starting AI bot workflow.
+2025-04-23 11:00:57,717 - INFO - Fetching tickers...
+2025-04-23 11:00:58,121 - INFO - Fetched 503 tickers.
+2025-04-23 11:00:58,122 - INFO - Using date range: 2022-04-24 to 2025-04-23
+2025-04-23 11:00:58,122 - INFO - Identifying top movers...
+2025-04-23 11:01:17,292 - ERROR - 
+1 Failed download:
+2025-04-23 11:01:17,292 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-23 11:01:20,507 - ERROR - 
+1 Failed download:
+2025-04-23 11:01:20,508 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-24 -> 2025-04-23)')
+2025-04-23 11:03:07,068 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'MSCI', 'TKO', 'UBER', 'AXON', 'TAP']
+2025-04-23 11:03:07,068 - INFO - Analyzing ticker: MS
+2025-04-23 11:03:07,327 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:03:07,787 - INFO - Analyzing ticker: CINF
+2025-04-23 11:03:08,086 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 11:03:08,584 - INFO - Analyzing ticker: WSM
+2025-04-23 11:03:08,606 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 11:03:09,090 - INFO - Analyzing ticker: APD
+2025-04-23 11:03:09,292 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:03:09,778 - INFO - Analyzing ticker: WDAY
+2025-04-23 11:03:09,825 - INFO - Generated 0 buy signals and 2 sell signals.
+2025-04-23 11:03:10,173 - INFO - Analyzing ticker: MSCI
+2025-04-23 11:03:10,344 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:03:10,700 - INFO - Analyzing ticker: TKO
+2025-04-23 11:03:10,890 - INFO - Generated 1 buy signals and 2 sell signals.
+2025-04-23 11:03:11,286 - INFO - Analyzing ticker: UBER
+2025-04-23 11:03:11,330 - INFO - Generated 0 buy signals and 3 sell signals.
+2025-04-23 11:03:11,704 - INFO - Analyzing ticker: AXON
+2025-04-23 11:03:11,966 - INFO - Generated 0 buy signals and 4 sell signals.
+2025-04-23 11:03:12,420 - INFO - Analyzing ticker: TAP
+2025-04-23 11:03:12,658 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:03:13,037 - INFO - Sending consolidated notification.
+2025-04-23 11:03:13,631 - INFO - Notification sent successfully.
+2025-04-23 11:03:13,631 - INFO - Workflow complete.
+2025-04-23 11:25:19,965 - INFO - Starting AI bot workflow.
+2025-04-23 11:25:19,965 - INFO - Fetching tickers...
+2025-04-23 11:26:16,720 - INFO - Starting AI bot workflow.
+2025-04-23 11:26:16,720 - INFO - Fetching tickers...
+2025-04-23 11:26:17,237 - INFO - Fetched 518 tickers.
+2025-04-23 11:26:17,238 - INFO - Using date range: 2022-04-24 to 2025-04-23
+2025-04-23 11:26:17,238 - INFO - Identifying top movers...
+2025-04-23 11:26:27,413 - ERROR - 
+1 Failed download:
+2025-04-23 11:26:27,413 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-24 -> 2025-04-23)')
+2025-04-23 11:27:54,905 - ERROR - 
+1 Failed download:
+2025-04-23 11:27:54,905 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-23 11:28:20,555 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'UBER', 'TKO', 'MSCI', 'AXON', 'MELI']
+2025-04-23 11:28:20,555 - INFO - Analyzing ticker: MS
+2025-04-23 11:28:20,856 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:28:22,478 - ERROR - Error analyzing ticker MS: 'Action'
+2025-04-23 11:28:22,478 - INFO - Analyzing ticker: CINF
+2025-04-23 11:28:22,693 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 11:28:23,539 - ERROR - Error analyzing ticker CINF: 'Action'
+2025-04-23 11:28:23,539 - INFO - Analyzing ticker: WSM
+2025-04-23 11:28:23,723 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 11:28:24,750 - ERROR - Error analyzing ticker WSM: 'Action'
+2025-04-23 11:28:24,750 - INFO - Analyzing ticker: APD
+2025-04-23 11:28:24,934 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:28:26,016 - ERROR - Error analyzing ticker APD: 'Action'
+2025-04-23 11:28:26,016 - INFO - Analyzing ticker: WDAY
+2025-04-23 11:28:26,141 - INFO - Generated 0 buy signals and 2 sell signals.
+2025-04-23 11:28:26,953 - ERROR - Error analyzing ticker WDAY: 'Action'
+2025-04-23 11:28:26,953 - INFO - Analyzing ticker: UBER
+2025-04-23 11:28:27,096 - INFO - Generated 0 buy signals and 3 sell signals.
+2025-04-23 11:28:27,876 - ERROR - Error analyzing ticker UBER: 'Action'
+2025-04-23 11:28:27,877 - INFO - Analyzing ticker: TKO
+2025-04-23 11:28:28,076 - INFO - Generated 1 buy signals and 2 sell signals.
+2025-04-23 11:28:29,144 - ERROR - Error analyzing ticker TKO: 'Action'
+2025-04-23 11:28:29,144 - INFO - Analyzing ticker: MSCI
+2025-04-23 11:28:29,301 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:28:30,302 - ERROR - Error analyzing ticker MSCI: 'Action'
+2025-04-23 11:28:30,303 - INFO - Analyzing ticker: AXON
+2025-04-23 11:28:30,453 - INFO - Generated 0 buy signals and 4 sell signals.
+2025-04-23 11:28:31,523 - ERROR - Error analyzing ticker AXON: 'Action'
+2025-04-23 11:28:31,523 - INFO - Analyzing ticker: MELI
+2025-04-23 11:28:31,677 - INFO - Generated 1 buy signals and 2 sell signals.
+2025-04-23 11:28:32,575 - ERROR - Error analyzing ticker MELI: 'Action'
+2025-04-23 11:28:32,575 - INFO - No buy/sell signals generated. No notification sent.
+2025-04-23 11:28:32,575 - INFO - Workflow complete.
+2025-04-23 11:35:30,227 - INFO - Starting AI bot workflow.
+2025-04-23 11:35:30,227 - INFO - Fetching tickers...
+2025-04-23 11:35:30,798 - INFO - Fetched 518 tickers.
+2025-04-23 11:35:30,798 - INFO - Using date range: 2022-04-24 to 2025-04-23
+2025-04-23 11:35:30,798 - INFO - Identifying top movers...
+2025-04-23 11:35:34,480 - ERROR - 
+1 Failed download:
+2025-04-23 11:35:34,481 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-23 11:36:16,648 - ERROR - 
+1 Failed download:
+2025-04-23 11:36:16,648 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-24 -> 2025-04-23)')
+2025-04-23 11:37:45,116 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'WDAY', 'APD', 'TKO', 'UBER', 'MSCI', 'MELI', 'TAP']
+2025-04-23 11:37:45,116 - INFO - Processing ticker: MS
+2025-04-23 11:37:45,117 - INFO - Fetching data for ticker: MS
+2025-04-23 11:37:45,118 - ERROR - Failed to fetch historical data for ticker MS: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,118 - ERROR - Skipping ticker MS due to data fetch failure.
+2025-04-23 11:37:45,118 - INFO - Processing ticker: CINF
+2025-04-23 11:37:45,118 - INFO - Fetching data for ticker: CINF
+2025-04-23 11:37:45,118 - ERROR - Failed to fetch historical data for ticker CINF: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,118 - ERROR - Skipping ticker CINF due to data fetch failure.
+2025-04-23 11:37:45,118 - INFO - Processing ticker: WSM
+2025-04-23 11:37:45,118 - INFO - Fetching data for ticker: WSM
+2025-04-23 11:37:45,119 - ERROR - Failed to fetch historical data for ticker WSM: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,119 - ERROR - Skipping ticker WSM due to data fetch failure.
+2025-04-23 11:37:45,119 - INFO - Processing ticker: WDAY
+2025-04-23 11:37:45,119 - INFO - Fetching data for ticker: WDAY
+2025-04-23 11:37:45,119 - ERROR - Failed to fetch historical data for ticker WDAY: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,119 - ERROR - Skipping ticker WDAY due to data fetch failure.
+2025-04-23 11:37:45,119 - INFO - Processing ticker: APD
+2025-04-23 11:37:45,119 - INFO - Fetching data for ticker: APD
+2025-04-23 11:37:45,120 - ERROR - Failed to fetch historical data for ticker APD: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,120 - ERROR - Skipping ticker APD due to data fetch failure.
+2025-04-23 11:37:45,120 - INFO - Processing ticker: TKO
+2025-04-23 11:37:45,120 - INFO - Fetching data for ticker: TKO
+2025-04-23 11:37:45,120 - ERROR - Failed to fetch historical data for ticker TKO: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,120 - ERROR - Skipping ticker TKO due to data fetch failure.
+2025-04-23 11:37:45,120 - INFO - Processing ticker: UBER
+2025-04-23 11:37:45,120 - INFO - Fetching data for ticker: UBER
+2025-04-23 11:37:45,120 - ERROR - Failed to fetch historical data for ticker UBER: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,121 - ERROR - Skipping ticker UBER due to data fetch failure.
+2025-04-23 11:37:45,121 - INFO - Processing ticker: MSCI
+2025-04-23 11:37:45,121 - INFO - Fetching data for ticker: MSCI
+2025-04-23 11:37:45,121 - ERROR - Failed to fetch historical data for ticker MSCI: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,121 - ERROR - Skipping ticker MSCI due to data fetch failure.
+2025-04-23 11:37:45,121 - INFO - Processing ticker: MELI
+2025-04-23 11:37:45,121 - INFO - Fetching data for ticker: MELI
+2025-04-23 11:37:45,121 - ERROR - Failed to fetch historical data for ticker MELI: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,122 - ERROR - Skipping ticker MELI due to data fetch failure.
+2025-04-23 11:37:45,122 - INFO - Processing ticker: TAP
+2025-04-23 11:37:45,122 - INFO - Fetching data for ticker: TAP
+2025-04-23 11:37:45,122 - ERROR - Failed to fetch historical data for ticker TAP: PriceHistory.history() got an unexpected keyword argument 'progress'
+2025-04-23 11:37:45,122 - ERROR - Skipping ticker TAP due to data fetch failure.
+2025-04-23 11:37:45,122 - INFO - No buy/sell signals generated. No notification sent.
+2025-04-23 11:37:45,122 - INFO - Workflow complete.
+2025-04-23 11:40:39,048 - INFO - Starting AI bot workflow.
+2025-04-23 11:40:39,048 - INFO - Fetching tickers...
+2025-04-23 11:40:39,567 - INFO - Fetched 518 tickers.
+2025-04-23 11:40:39,568 - INFO - Using date range: 2022-04-24 to 2025-04-23
+2025-04-23 11:40:39,568 - INFO - Identifying top movers...
+2025-04-23 11:41:26,759 - ERROR - 
+1 Failed download:
+2025-04-23 11:41:26,759 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-23 11:42:16,670 - ERROR - 
+1 Failed download:
+2025-04-23 11:42:16,670 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-24 -> 2025-04-23)')
+2025-04-23 11:42:44,763 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'WDAY', 'APD', 'UBER', 'TKO', 'MSCI', 'AXON', 'TAP']
+2025-04-23 11:42:44,764 - INFO - Processing ticker: MS
+2025-04-23 11:42:44,764 - INFO - Fetching data for ticker: MS
+2025-04-23 11:42:44,785 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:42:45,886 - ERROR - Error analyzing ticker MS: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:45,886 - INFO - Processing ticker: CINF
+2025-04-23 11:42:45,886 - INFO - Fetching data for ticker: CINF
+2025-04-23 11:42:45,903 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 11:42:46,765 - ERROR - Error analyzing ticker CINF: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:46,765 - INFO - Processing ticker: WSM
+2025-04-23 11:42:46,765 - INFO - Fetching data for ticker: WSM
+2025-04-23 11:42:46,912 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 11:42:47,815 - ERROR - Error analyzing ticker WSM: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:47,815 - INFO - Processing ticker: WDAY
+2025-04-23 11:42:47,815 - INFO - Fetching data for ticker: WDAY
+2025-04-23 11:42:48,002 - INFO - Generated 0 buy signals and 2 sell signals.
+2025-04-23 11:42:48,852 - ERROR - Error analyzing ticker WDAY: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:48,852 - INFO - Processing ticker: APD
+2025-04-23 11:42:48,852 - INFO - Fetching data for ticker: APD
+2025-04-23 11:42:49,039 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:42:49,903 - ERROR - Error analyzing ticker APD: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:49,903 - INFO - Processing ticker: UBER
+2025-04-23 11:42:49,903 - INFO - Fetching data for ticker: UBER
+2025-04-23 11:42:50,059 - INFO - Generated 0 buy signals and 3 sell signals.
+2025-04-23 11:42:51,250 - ERROR - Error analyzing ticker UBER: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:51,250 - INFO - Processing ticker: TKO
+2025-04-23 11:42:51,250 - INFO - Fetching data for ticker: TKO
+2025-04-23 11:42:51,515 - INFO - Generated 1 buy signals and 2 sell signals.
+2025-04-23 11:42:52,902 - ERROR - Error analyzing ticker TKO: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:52,902 - INFO - Processing ticker: MSCI
+2025-04-23 11:42:52,902 - INFO - Fetching data for ticker: MSCI
+2025-04-23 11:42:53,084 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:42:54,080 - ERROR - Error analyzing ticker MSCI: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:54,080 - INFO - Processing ticker: AXON
+2025-04-23 11:42:54,080 - INFO - Fetching data for ticker: AXON
+2025-04-23 11:42:54,304 - INFO - Generated 0 buy signals and 4 sell signals.
+2025-04-23 11:42:55,135 - ERROR - Error analyzing ticker AXON: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:55,135 - INFO - Processing ticker: TAP
+2025-04-23 11:42:55,135 - INFO - Fetching data for ticker: TAP
+2025-04-23 11:42:55,377 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:42:56,310 - ERROR - Error analyzing ticker TAP: expected str, bytes or os.PathLike object, not NoneType
+2025-04-23 11:42:56,311 - INFO - Sending consolidated notification.
+2025-04-23 11:42:56,946 - INFO - Notification sent successfully.
+2025-04-23 11:42:56,946 - INFO - Workflow complete.
+2025-04-23 11:50:22,074 - INFO - Starting AI bot workflow.
+2025-04-23 11:50:22,074 - INFO - Fetching tickers...
+2025-04-23 11:50:22,638 - INFO - Fetched 518 tickers.
+2025-04-23 11:50:22,638 - INFO - Using date range: 2022-04-24 to 2025-04-23
+2025-04-23 11:50:22,638 - INFO - Identifying top movers...
+2025-04-23 11:50:39,315 - ERROR - 
+1 Failed download:
+2025-04-23 11:50:39,316 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-24 -> 2025-04-23)')
+2025-04-23 11:52:27,360 - ERROR - 
+1 Failed download:
+2025-04-23 11:52:27,361 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-23 11:52:28,158 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'WDAY', 'APD', 'TKO', 'UBER', 'MSCI', 'AXON', 'MELI']
+2025-04-23 11:52:28,158 - INFO - Processing ticker: MS
+2025-04-23 11:52:28,158 - INFO - Fetching data for ticker: MS
+2025-04-23 11:52:28,313 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:52:31,254 - INFO - Chart sent successfully.
+2025-04-23 11:52:31,254 - INFO - Processing ticker: CINF
+2025-04-23 11:52:31,254 - INFO - Fetching data for ticker: CINF
+2025-04-23 11:52:31,533 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 11:52:33,892 - INFO - Chart sent successfully.
+2025-04-23 11:52:33,892 - INFO - Processing ticker: WSM
+2025-04-23 11:52:33,892 - INFO - Fetching data for ticker: WSM
+2025-04-23 11:52:34,046 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 11:52:36,646 - INFO - Chart sent successfully.
+2025-04-23 11:52:36,646 - INFO - Processing ticker: WDAY
+2025-04-23 11:52:36,646 - INFO - Fetching data for ticker: WDAY
+2025-04-23 11:52:36,767 - INFO - Generated 0 buy signals and 2 sell signals.
+2025-04-23 11:52:39,026 - INFO - Chart sent successfully.
+2025-04-23 11:52:39,026 - INFO - Processing ticker: APD
+2025-04-23 11:52:39,026 - INFO - Fetching data for ticker: APD
+2025-04-23 11:52:39,328 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:52:42,125 - INFO - Chart sent successfully.
+2025-04-23 11:52:42,125 - INFO - Processing ticker: TKO
+2025-04-23 11:52:42,125 - INFO - Fetching data for ticker: TKO
+2025-04-23 11:52:42,299 - INFO - Generated 1 buy signals and 2 sell signals.
+2025-04-23 11:52:44,755 - INFO - Chart sent successfully.
+2025-04-23 11:52:44,755 - INFO - Processing ticker: UBER
+2025-04-23 11:52:44,755 - INFO - Fetching data for ticker: UBER
+2025-04-23 11:52:44,958 - INFO - Generated 0 buy signals and 3 sell signals.
+2025-04-23 11:52:47,347 - INFO - Chart sent successfully.
+2025-04-23 11:52:47,348 - INFO - Processing ticker: MSCI
+2025-04-23 11:52:47,348 - INFO - Fetching data for ticker: MSCI
+2025-04-23 11:52:47,561 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 11:52:49,908 - INFO - Chart sent successfully.
+2025-04-23 11:52:49,909 - INFO - Processing ticker: AXON
+2025-04-23 11:52:49,909 - INFO - Fetching data for ticker: AXON
+2025-04-23 11:52:50,088 - INFO - Generated 0 buy signals and 4 sell signals.
+2025-04-23 11:52:52,164 - INFO - Chart sent successfully.
+2025-04-23 11:52:52,165 - INFO - Processing ticker: MELI
+2025-04-23 11:52:52,165 - INFO - Fetching data for ticker: MELI
+2025-04-23 11:52:52,398 - INFO - Generated 1 buy signals and 2 sell signals.
+2025-04-23 11:52:54,468 - INFO - Chart sent successfully.
+2025-04-23 11:52:54,468 - INFO - Sending consolidated notification.
+2025-04-23 11:52:55,006 - INFO - Notification sent successfully.
+2025-04-23 11:52:55,007 - INFO - Workflow complete.
+2025-04-23 12:20:05,212 - INFO - Starting AI bot workflow.
+2025-04-23 12:20:05,212 - INFO - Fetching tickers...
+2025-04-23 12:20:05,955 - INFO - Fetched 518 tickers.
+2025-04-23 12:20:05,955 - INFO - Using date range: 2022-04-24 to 2025-04-23
+2025-04-23 12:20:05,955 - INFO - Identifying top movers...
+2025-04-23 12:20:52,138 - ERROR - 
+1 Failed download:
+2025-04-23 12:20:52,138 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-24 -> 2025-04-23)')
+2025-04-23 12:21:41,446 - ERROR - 
+1 Failed download:
+2025-04-23 12:21:41,446 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-23 12:22:13,656 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'WDAY', 'APD', 'MSCI', 'TKO', 'UBER', 'TAP', 'AXON']
+2025-04-23 12:22:13,656 - INFO - Portfolio allocation: {'MS': 0.1, 'CINF': 0.1, 'WSM': 0.1, 'WDAY': 0.1, 'APD': 0.1, 'MSCI': 0.1, 'TKO': 0.1, 'UBER': 0.1, 'TAP': 0.1, 'AXON': 0.1}
+2025-04-23 12:22:13,656 - INFO - Processing ticker: MS
+2025-04-23 12:22:13,656 - INFO - Fetching data for ticker: MS
+2025-04-23 12:22:13,896 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:22:16,937 - INFO - Chart sent successfully.
+2025-04-23 12:22:16,937 - INFO - Processing ticker: CINF
+2025-04-23 12:22:16,937 - INFO - Fetching data for ticker: CINF
+2025-04-23 12:22:17,157 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:22:19,768 - INFO - Chart sent successfully.
+2025-04-23 12:22:19,769 - INFO - Processing ticker: WSM
+2025-04-23 12:22:19,769 - INFO - Fetching data for ticker: WSM
+2025-04-23 12:22:20,034 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:22:22,653 - INFO - Chart sent successfully.
+2025-04-23 12:22:22,653 - INFO - Processing ticker: WDAY
+2025-04-23 12:22:22,653 - INFO - Fetching data for ticker: WDAY
+2025-04-23 12:22:22,897 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:22:25,322 - INFO - Chart sent successfully.
+2025-04-23 12:22:25,323 - INFO - Processing ticker: APD
+2025-04-23 12:22:25,323 - INFO - Fetching data for ticker: APD
+2025-04-23 12:22:25,655 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:22:28,168 - INFO - Chart sent successfully.
+2025-04-23 12:22:28,169 - INFO - Processing ticker: MSCI
+2025-04-23 12:22:28,169 - INFO - Fetching data for ticker: MSCI
+2025-04-23 12:22:28,397 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:22:31,032 - INFO - Chart sent successfully.
+2025-04-23 12:22:31,032 - INFO - Processing ticker: TKO
+2025-04-23 12:22:31,032 - INFO - Fetching data for ticker: TKO
+2025-04-23 12:22:31,303 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 12:22:33,866 - INFO - Chart sent successfully.
+2025-04-23 12:22:33,866 - INFO - Processing ticker: UBER
+2025-04-23 12:22:33,867 - INFO - Fetching data for ticker: UBER
+2025-04-23 12:22:34,102 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:22:36,495 - INFO - Chart sent successfully.
+2025-04-23 12:22:36,495 - INFO - Processing ticker: TAP
+2025-04-23 12:22:36,495 - INFO - Fetching data for ticker: TAP
+2025-04-23 12:22:36,725 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:22:39,478 - INFO - Chart sent successfully.
+2025-04-23 12:22:39,478 - INFO - Processing ticker: AXON
+2025-04-23 12:22:39,478 - INFO - Fetching data for ticker: AXON
+2025-04-23 12:22:39,597 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:22:41,705 - INFO - Chart sent successfully.
+2025-04-23 12:22:41,705 - INFO - Sending consolidated notification.
+2025-04-23 12:22:42,238 - INFO - Notification sent successfully.
+2025-04-23 12:22:42,238 - INFO - Workflow complete.
+2025-04-23 12:31:05,050 - INFO - Starting AI bot workflow.
+2025-04-23 12:31:05,050 - INFO - Fetching tickers...
+2025-04-23 12:31:05,645 - INFO - Fetched 518 tickers.
+2025-04-23 12:31:05,645 - INFO - Using date range: 2022-04-24 to 2025-04-23
+2025-04-23 12:31:05,645 - INFO - Identifying top movers...
+2025-04-23 12:31:17,955 - ERROR - 
+1 Failed download:
+2025-04-23 12:31:17,955 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-23 12:33:17,889 - ERROR - 
+1 Failed download:
+2025-04-23 12:33:17,889 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-24 -> 2025-04-23)')
+2025-04-23 12:33:18,712 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'TKO', 'MSCI', 'UBER', 'TAP', 'AXON']
+2025-04-23 12:33:18,712 - INFO - Portfolio allocation: {'MS': 0.1, 'CINF': 0.1, 'WSM': 0.1, 'APD': 0.1, 'WDAY': 0.1, 'TKO': 0.1, 'MSCI': 0.1, 'UBER': 0.1, 'TAP': 0.1, 'AXON': 0.1}
+2025-04-23 12:33:18,712 - INFO - Training ML model...
+2025-04-23 12:33:18,712 - INFO - Fetching data for ticker: AAPL
+2025-04-23 12:33:19,158 - INFO - Processing ticker: MS
+2025-04-23 12:33:19,158 - INFO - Fetching data for ticker: MS
+2025-04-23 12:33:19,413 - ERROR - Error analyzing ticker MS: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:19,413 - INFO - Processing ticker: CINF
+2025-04-23 12:33:19,413 - INFO - Fetching data for ticker: CINF
+2025-04-23 12:33:19,647 - ERROR - Error analyzing ticker CINF: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:19,647 - INFO - Processing ticker: WSM
+2025-04-23 12:33:19,647 - INFO - Fetching data for ticker: WSM
+2025-04-23 12:33:19,668 - ERROR - Error analyzing ticker WSM: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:19,669 - INFO - Processing ticker: APD
+2025-04-23 12:33:19,669 - INFO - Fetching data for ticker: APD
+2025-04-23 12:33:20,078 - ERROR - Error analyzing ticker APD: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:20,079 - INFO - Processing ticker: WDAY
+2025-04-23 12:33:20,079 - INFO - Fetching data for ticker: WDAY
+2025-04-23 12:33:20,228 - ERROR - Error analyzing ticker WDAY: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:20,229 - INFO - Processing ticker: TKO
+2025-04-23 12:33:20,229 - INFO - Fetching data for ticker: TKO
+2025-04-23 12:33:20,430 - ERROR - Error analyzing ticker TKO: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:20,431 - INFO - Processing ticker: MSCI
+2025-04-23 12:33:20,431 - INFO - Fetching data for ticker: MSCI
+2025-04-23 12:33:20,584 - ERROR - Error analyzing ticker MSCI: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:20,584 - INFO - Processing ticker: UBER
+2025-04-23 12:33:20,584 - INFO - Fetching data for ticker: UBER
+2025-04-23 12:33:20,706 - ERROR - Error analyzing ticker UBER: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:20,707 - INFO - Processing ticker: TAP
+2025-04-23 12:33:20,707 - INFO - Fetching data for ticker: TAP
+2025-04-23 12:33:20,999 - ERROR - Error analyzing ticker TAP: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:21,000 - INFO - Processing ticker: AXON
+2025-04-23 12:33:21,000 - INFO - Fetching data for ticker: AXON
+2025-04-23 12:33:21,248 - ERROR - Error analyzing ticker AXON: "None of [Index(['SMA_20', 'BB_upper', 'BB_lower', 'EMA_12', 'EMA_26', 'MACD',\n       'Signal_Line', 'RSI', 'SMA_50', 'SMA_200'],\n      dtype='object')] are in the [columns]"
+2025-04-23 12:33:21,248 - INFO - No buy/sell signals generated. No notification sent.
+2025-04-23 12:33:21,249 - INFO - Workflow complete.
+2025-04-23 12:36:37,859 - INFO - Starting AI bot workflow.
+2025-04-23 12:36:37,859 - INFO - Fetching tickers...
+2025-04-23 12:36:38,420 - INFO - Fetched 518 tickers.
+2025-04-23 12:36:38,420 - INFO - Using date range: 2022-04-24 to 2025-04-23
+2025-04-23 12:36:38,420 - INFO - Identifying top movers...
+2025-04-23 12:37:33,919 - ERROR - 
+1 Failed download:
+2025-04-23 12:37:33,919 - ERROR - ['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-04-24 -> 2025-04-23)')
+2025-04-23 12:38:47,951 - ERROR - 
+1 Failed download:
+2025-04-23 12:38:47,952 - ERROR - ['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-23 12:38:48,627 - INFO - Identified top 10 movers: ['MS', 'CINF', 'WSM', 'APD', 'WDAY', 'TKO', 'MSCI', 'UBER', 'PKG', 'MELI']
+2025-04-23 12:38:48,627 - INFO - Portfolio allocation: {'MS': 0.1, 'CINF': 0.1, 'WSM': 0.1, 'APD': 0.1, 'WDAY': 0.1, 'TKO': 0.1, 'MSCI': 0.1, 'UBER': 0.1, 'PKG': 0.1, 'MELI': 0.1}
+2025-04-23 12:38:48,627 - INFO - Training ML model...
+2025-04-23 12:38:48,627 - INFO - Fetching data for ticker: AAPL
+2025-04-23 12:38:49,139 - INFO - Processing ticker: MS
+2025-04-23 12:38:49,139 - INFO - Fetching data for ticker: MS
+2025-04-23 12:38:49,775 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:38:50,700 - INFO - Processing ticker: CINF
+2025-04-23 12:38:50,700 - INFO - Fetching data for ticker: CINF
+2025-04-23 12:38:50,933 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:38:52,122 - INFO - Processing ticker: WSM
+2025-04-23 12:38:52,122 - INFO - Fetching data for ticker: WSM
+2025-04-23 12:38:52,422 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:38:53,628 - INFO - Processing ticker: APD
+2025-04-23 12:38:53,629 - INFO - Fetching data for ticker: APD
+2025-04-23 12:38:53,953 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:38:55,011 - INFO - Processing ticker: WDAY
+2025-04-23 12:38:55,011 - INFO - Fetching data for ticker: WDAY
+2025-04-23 12:38:55,157 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:38:56,156 - INFO - Processing ticker: TKO
+2025-04-23 12:38:56,156 - INFO - Fetching data for ticker: TKO
+2025-04-23 12:38:56,342 - INFO - Generated 0 buy signals and 1 sell signals.
+2025-04-23 12:38:59,069 - INFO - Chart sent successfully.
+2025-04-23 12:38:59,070 - INFO - Processing ticker: MSCI
+2025-04-23 12:38:59,070 - INFO - Fetching data for ticker: MSCI
+2025-04-23 12:38:59,241 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:39:00,286 - INFO - Processing ticker: UBER
+2025-04-23 12:39:00,286 - INFO - Fetching data for ticker: UBER
+2025-04-23 12:39:00,504 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:39:01,498 - INFO - Processing ticker: PKG
+2025-04-23 12:39:01,498 - INFO - Fetching data for ticker: PKG
+2025-04-23 12:39:01,636 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:39:02,507 - INFO - Processing ticker: MELI
+2025-04-23 12:39:02,507 - INFO - Fetching data for ticker: MELI
+2025-04-23 12:39:02,695 - INFO - Generated 0 buy signals and 0 sell signals.
+2025-04-23 12:39:03,507 - INFO - Sending consolidated notification.
+2025-04-23 12:39:04,035 - INFO - Notification sent successfully.
+2025-04-23 12:39:04,036 - INFO - Workflow complete.
