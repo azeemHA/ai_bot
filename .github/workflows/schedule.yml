@@ -4,6 +4,7 @@ on:
   schedule:
     # Run every 2 hours between 8:30 AM and 3:30 PM CST, Monday to Friday
     - cron: '30 14-21/2 * * 1-5' # CST is UTC-6, so 8:30 AM CST = 14:30 UTC
+  workflow_dispatch: # Enable manual execution of the workflow
 
 jobs:
   run-ai-bot:
@@ -18,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9' # Use the Python version you need
+        python-version: '3.13' # Updated Python version to 3.13
 
     # Step 3: Install dependencies
     - name: Install dependencies
